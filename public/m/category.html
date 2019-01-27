@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的乐购</title>
+    <!-- 引入字体图标 -->
+    <link rel="stylesheet" href="./lib/fontAwesome/css/font-awesome.min.css">
+    <!-- mui css -->
+    <link rel="stylesheet" href="./lib/mui/css/mui.css">
+    <!-- 引入 首页css -->
+    <link rel="stylesheet/less" href="./css/category.less">
+    <!-- 引入识别less文件 -->
+    <script src="./lib/less/less.js"></script>
+    <!-- 引入mui框架 -->
+    <script src="./lib/mui/js/mui.js"></script>
+    <!-- 移动模板 js-->
+    <script src="./lib/artTemplate/template-web.js"></script>
+    <!-- 移动端 js  -->
+    <script src="./lib/zepto/zepto.min.js"></script>
+    <!-- 引入首页的 js -->
+    <script src="./js/category.js"></script>
+
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header id="header">
+        <a href="javascript:history.back();" class="left fa fa-arrow-left"></a>
+        <h5 class="center">我的乐淘首页</h5>
+        <a href="#" class="right fa fa-search"></a>
+    </header>
+
+    <!-- 主体 -->
+    <main id="main">
+
+        <div class="left">
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!-- 这里放置真实显示的DOM内容 -->
+                    <ul class="mui-table-view">
+                        <li class="mui-table-view-cell">运动馆</li>
+                        <li class="mui-table-view-cell">男士馆</li>
+                        <li class="mui-table-view-cell">女士馆</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="right ">
+            <div class="mui-row">
+                <div class="mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        <!--这里放置真实显示的DOM内容-->
+                        <div class="mui-col-xs-4">
+                            <a href="#">
+                                <img src="images/brand1.png" alt="">
+                                <p>耐克</p>
+                            </a>
+                        </div>
+                        <div class="mui-col-xs-4">
+                            <a href="#">
+                                <img src="images/brand2.png" alt="">
+                                <p>耐克</p>
+                            </a>
+                        </div>
+                        <div class="mui-col-xs-4">
+                            <a href="#">
+                                <img src="images/brand3.png" alt="">
+                                <p>耐克</p>
+                            </a>
+                        </div>
+                        <div class="mui-col-xs-4">
+                            <a href="#">
+                                <img src="images/brand4.png" alt="">
+                                <p>耐克</p>
+                            </a>
+                        </div>
+                        <div class="mui-col-xs-4">
+                            <a href="#">
+                                <img src="images/brand5.png" alt="">
+                                <p>耐克</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- 尾部 -->
+    <footer id="footer">
+        <div class="mui-row">
+            <div class="mui-col-xs-3 box">
+                <a href="./index.html">
+                    <i class="fa fa-apple"></i>
+                    <p>首页</p>
+                </a>
+            </div>
+            <div class="mui-col-xs-3 box">
+                <a href="#" class="active">
+                    <i class="fa fa-bars"></i>
+                    <p class="active">分类</p>
+                </a>
+            </div>
+            <div class="mui-col-xs-3 box">
+                <a href="#">
+                    <i class="fa fa-shopping-cart"></i>
+                    <p>购物</p>
+                </a>
+            </div>
+            <div class="mui-col-xs-3 box">
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    <p>个人中心</p>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

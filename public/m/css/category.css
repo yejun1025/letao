@@ -62,3 +62,29 @@ body {
 img {
   vertical-align: middle;
 }
+#main {
+  height: 100%;
+  display: flex;
+  background-color: #cccc;
+}
+#main .left {
+  position: relative;
+  width: 0.85rem;
+}
+#main .left .mui-table-view-cell:after {
+  left: 0;
+}
+#main .right {
+  flex: 1;
+  position: relative;
+}
+#main .right div {
+  margin: 0;
+  padding: 0;
+}
+#main .right div a {
+  display: block;
+}
+#main .right div a img {
+  width: 100%;
+}

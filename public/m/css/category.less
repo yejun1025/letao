@@ -1,0 +1,30 @@
+@import 'base.less';
+// 主体
+#main {
+    height: 100%;
+    display: flex;
+    background-color: #cccc;
+    .left {
+        position: relative;
+        width: 0.85rem;
+        .mui-table-view-cell:after {
+            left: 0;
+        }
+    }
+    .right {
+        flex: 1;
+        position: relative;
+        div{
+            margin: 0;
+            padding: 0;
+            a{
+                display:block;
+                // width: 100%;
+                img{
+                    width: 100%;
+                }
+               
+            }
+        }
+    }
+}
